@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Page</title>
+    
+</head>
+<body>
+    <div class="container">
+        <h3>Sign Up</h3>
+        <form action="#">
+            <div class="field email-field">
+                <div class="input-field">
+                    <input type="email" placeholder="Enter your email" class="email"/>
+                </div>
+                <span class="error email-error">
+                    <i class="bx bx-error-circle error-icon"></i>
+                    <p class="error-text">Please enter a valid email</p>
+                </span>
+            </div>
+            <div class="field create-password">
+                <div class="input-field">
+                    <input type="password" placeholder="Create Password" class="password"/>
+                    <i class="bx bx-hide password-hide"></i>
+                </div>
+                <span class="error password-error">
+                    <i class="bx bx-error-circle error-icon"></i>    
+                    <p class="error-text">Please enter atleast 8 characters with numbers, symbol, small and capital letters.</p>
+                </span>
+            </div>
+            <div class="field confirm-password">
+                <div class="input-field">
+                    <input type="password" placeholder="Confirm Password" class="confirmpassword"/>
+                    <i class="bx bx-hide password-hide"></i>
+                </div>
+                <span class="error confirm-error">
+                    <i class="bx bx-error-circle error-icon"></i>
+                    <p class="error-text">Password didn't match.</p>
+                </span>
+            </div>
+            <div class="field button-field input-field">
+                <input type="submit" value="Submit Now"/>
+            </div>
+        </form>
+    </div>
+    <script src="myScript.js"></script>
+</body>
+</html>
